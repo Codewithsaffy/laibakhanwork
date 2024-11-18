@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chapter 8 practice set</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: pink;
+    }
+    .progressive {
+      height: 2px;
+      background-color: red;
+      animation: progressive 1s ease-in-out  1 ;
+    }
+    @keyframes progressive {
+      0% {
+        width: 0;
+      }
+      50% {
+        width: 70vw;
+      }
+      100% {
+        width: 100vw;
+      }
+    }
+    header {
+      background-color: black;
+      color: wheat;
+    }
+nav {
+  display:flex;
+  align-items: center;
+  padding: 12px;
+}
+.logo {
+  background-color: teal;
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
+    ul {
+      list-style: none;
+      padding: 30px;
+    }
+    li {
+      display: inline;
+      padding: 40px;
+      
+    }
+    main {
+      background-color: aqua;
+      height: 1000px;
+    }
+    .rotate {
+animation: rotate 2s ease-in-out infinite; 
+}
+    /* @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      
+      100% {
+        transform: rotate(360deg);
+      } */
+    /* } */
+    
+    section {
+height: 500px; 
+background-color:pink;  
+overflow: hidden;
+display: flex;
+margin: auto;
+justify-content: center;
+}
+.image1 {
+  transform: translateX(-8vw);
+  animation: images1 1s forwards;
+}
+.image2 {
+  transform: translateX(0vw);
+  animation: images2 1s forwards;
+}
+.image3 {
+  transform: translateX(8vw);
+  animation: images3 1s forwards;
+}
+@keyframes images1 {
+      0% {
+        transform: translate(-8vw);
+      }
+      
+      100% {
+        transform: translate(85vw);
+      } }
+    
+      @keyframes images2 {
+      0% {
+        transform: translate(0vw);
+      }
+      
+      100% {
+        transform: translate(92vw);
+      } 
+    }
+    @keyframes images3 {
+      0% {
+        transform: translate(-8vw);
+      }
+      
+      100% {
+        transform: translate(92vw);}
+      }
+  </style>
+</head>
+<body>
+  <div class="progressive"></div>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet tempore perspiciatis ipsam quod similique quasi, ut qui tenetur sint modi voluptas eos mollitia quae repellat alias sapiente nihil fuga libero.
+  
+  
+    <div class="rotate">
+     
+      <img src="https://freesvg.org/img/Ouroboros.png" width="300" height="300" alt="error">
+    </div>
+    <section>
+    <div class="image1">
+      <img src="https://wallpapers.com/images/hd/beautiful-nature-pictures-2c29nke7owomq7la.jpg" width="1400px">
+    </div>
+    <div class="image2">
+      <img src="https://wallpapers.com/images/hd/beautiful-nature-pictures-2c29nke7owomq7la.jpg" width="1400px">
+    </div>
+    <div class="image3">
+      <img src="https://wallpapers.com/images/hd/beautiful-nature-pictures-2c29nke7owomq7la.jpg" width="1400px">
+    </div>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chapter 8</title>
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-color: aqua;
+    }
+    .box {
+      background-color: pink;
+      color:black;
+      width: 300px;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      /* animation-name: widthanimation; */
+      /* animation-duration: 3s; */
+      /* animation-timing-function: ease-in-out; */
+      /* animation-delay: 2s; */
+      /* animation-iteration-count: infinite; */
+      /* animation-direction: alternate; */
+      /* animation-direction: normal; */
+      animation: widthanimation 3s ease-in-out 2s infinite  normal;
+    }
+    @keyframes widthanimation {
+      from {
+        width:300px
+      }
+      to {
+        width:600px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+<div class="box">This is me</div>
+  </div>
+</body>
+</html>

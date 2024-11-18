@@ -1,0 +1,1 @@
+z = Number.parseInt(z)//converting string to number

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .contianer {
+        width: 500px;
+        height: 500px;
+        background: rgb(32, 219, 188);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+      }
+      .box {
+        width: 300px;
+        height: 300px;
+        background: rgb(55, 203, 5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        /* z-index: -1; */
+      }
+      .absolute{
+        width: 100px;
+        border-radius: 50%;
+        height: 100px;
+        background: rgb(195, 69, 69);
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contianer">
+      <div class="box">
+        <div class="absolute"></div>
+      </div>
+    </div>
+  </body>
+</html>

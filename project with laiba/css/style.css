@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+--main-bg-color: white;}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* padding: 0 10px; */
+  background-color: #f1f2f4;
+}
+header {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+
+}
+.logo {
+  display: flex;
+  padding: 0px 25px 0px 0px;
+  margin: -16px;
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  height: 10vh;
+  display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  right:122px;
+}
+.search input {
+  height: 35px;
+  border-radius: 5px;
+  margin: 0 25px 0 80px;
+  background-color:#f1f2f4 ;
+  padding: 0 10px;
+  font-family: "Inter", sans-serif;
+  width: 20vw;
+}
+.search button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.search button:hover {
+  color :rgba(0, 0, 0, 0.281);
+  font-weight: 700;
+}
+.slider {
+ margin: 12px auto;
+ width: 93vw;
+ overflow: hidden;
+}
+.slider img{
+  width: 100%;
+  height: 500px;
+}
+.card {
+  background-color: white;
+  margin: auto;
+  width: 93vw;
+  font-family: "Inter", sans-serif;
+  
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 0 20px;
+}
+.card h2 {
+  font-family: "Inter", sans-serif;
+  padding: 15px 0px 0px 20px;
+}
+
+.lines {
+  padding: 10px 0px 20px 0px;
+}
+.container {
+  min-height: calc(100vh - 9vh - 12vh);
+}
+footer {
+  background-color:rgba(0, 0, 0, 0.822);
+  color:antiquewhite;
+  height: 9vh;
+  font-family: "Inter", sans-serif;
+}

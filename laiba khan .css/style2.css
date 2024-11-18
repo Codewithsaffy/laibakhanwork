@@ -1,0 +1,22 @@
+* {margin: 0;
+padding: 0;}
+
+
+
+.red {
+  background-color: rgba(20, 190, 133, 0.672);
+  /* background-color: #ff7180; */
+  
+ 
+  color: seashell;
+  height: 100px;
+}
+.green {
+  background-color: seashell;
+  color: aquamarine;
+}
+
+
+
+
+

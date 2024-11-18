@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chapter 8</title>
+    <style>
+      .container {
+        background-color: aqua;
+        height: 445px;
+      }
+      .box {
+        border: solid black 1px;
+        /* transform: rotatex(40deg); */
+        /* transform: translate(40px,70px) rotatex(65deg); */
+        /* transform: scale(2,3); */
+        /* transform-origin: 0; */
+        /* transform: skew(4deg, 6deg ) */
+        width: 75px;
+        /* transform: translate(40px,70px) rotatey(55deg); */
+        /* transform: translate(40px,70px) rotatez(55deg); */
+
+      }
+      .box:hover {
+        width: 30px;
+        height: 160px;
+        /* transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+        transition-delay: 2s; */
+transition: width 1s ease-out 2s, height 1s ease-out 2s;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing 
+      </div>
+    </div>
+  </body>
+</html>

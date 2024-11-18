@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 334px;
+        height: 334px;
+        background-color: aqua;
+        margin: 13px 13px 14px 15px;
+        padding: 4px 9px;
+        border: 3px rgb(104, 63, 63);
+        border-style: dashed;
+        border-radius: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque saepe
+      labore culpa rem, assumenda ea temporibus reprehenderit animi qui quae,
+      sit explicabo, exercitationem ab sed? Molestiae a tempore sed libero.
+    </div>
+  </body>
+</html>
+<br /><br /><br />
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>margin collapse</title>
+    <style>
+      .box1 {
+        background-color: rgb(255, 167, 167);
+        margin: 30px;
+        height: 230px;
+        padding: 20px;
+        border: 3px solid black;
+
+      }
+      .box2 {
+        background-color: cadetblue;
+        margin: 20px;
+        height: 140px;
+        padding: 20px;
+        border: 3px solid black;
+        box-sizing: border-box;
+        /* width: 100%; */
+      
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo
+      perferendis officiis, aliquam, consequuntur voluptates in dicta natus aut,
+      accusamus similique incidunt! Eum doloremque, facilis tempora perspiciatis
+      veritatis expedita excepturi?
+      <div class="box2">
+      
+      </div>
+    </div>
+    
+      
+    </div>
+  </body>
+</html>
+
+<br /><br /><br />
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>padding</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid black;
+        border-radius: 10px;
+        color: white;
+        margin-top: 2px;
+        /* padding: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+  </body>
+</html>
