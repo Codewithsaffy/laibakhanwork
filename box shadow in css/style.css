@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+.card {
+  margin: 23px 12px;
+  padding: 23px 12px;
+  border: 2px solid red;
+  background-color: bisque;
+  /* box-shadow: -10px -10px 10px green; */
+  /* box-shadow: 10px 10px 10px green; */
+  /* box-shadow: -10px -10px 10px 4px green; */
+  /* 3rd value sahdow ke liye aur fourth valuse spread ke leye */
+  /* box-shadow: -10px -10px 10px 4px rgba(red, green, blue, alpha); */
+  /* box-shadow: -10px -10px 10px 4px rgba(3, 219, 89, 0.6); */
+  /* andar ki taraf box shadow karna hai to inset ka istamal kare ge*/
+  /* box-shadow: inset -10px 10px 4px rgba(3, 219, 89, 0.6); */
+  /* multiple shadows ke leye */
+  box-shadow: inset -10px 10px 4px rgba(3, 219, 89, 0.6),
+    -10px 10px 4px rgba(73, 231, 26, 0.927);
+}
+.card h2 {
+  text-shadow: 2px 2px 4px red;
+}

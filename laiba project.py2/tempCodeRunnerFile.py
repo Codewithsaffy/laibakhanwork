@@ -1,5 +1,3 @@
-# import pyttsx3
-
-# engine = pyttsx3.init()
-# engine.say("Hello, I am your assistant.")
-# engine.runAndWait()
+client = OpenAI(
+#   api_Key=os.engine("CUSTOM_ENV_NAME"),
+# )

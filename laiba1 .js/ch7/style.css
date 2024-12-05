@@ -1,0 +1,17 @@
+div{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid  rgb(7, 99, 99);
+  border-radius: 5px;
+  margin:  5px 0px;
+  padding: 7px 0px 0px 0px;
+  height: 100px;
+  width: 150px;
+  background-color: rgb(20, 138, 138);
+}
+p{
+  color: rgb(20, 138, 138);
+  font-size: 30px;
+  font-weight: bold;
+}

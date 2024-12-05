@@ -450,6 +450,8 @@ background-color: #ffc940;
     .list-nav {
       justify-content: center;
       display: flex;
+      background-color: #232f3e ;
+      flex-direction: column;
     }
 .nav-all-footer {
       display: grid;
@@ -457,15 +459,19 @@ background-color: #ffc940;
       grid-template-rows: auto auto auto auto;
       width:70vw;
       justify-content: space-between;
+      /* align-items: center; */
+      margin: auto;
     }
     
     .nav-all-footer h3 {
+      color: white;
       font-size: 12px;
       font-weight: bold;
     }
     .nav-all-footer p {
 font-size: 10px;
 /* font-weight: lighter; */
+color:#DDDDDD;
     }
     
     
@@ -579,5 +585,48 @@ font-size: 10px;
       width: 100px;
       margin: 6px 0px;
     }
-    
-    
+    /* .nav-all-footer{
+      /* justify-content: center; */
+    /* }
+    .list-nav{
+      display: flex;
+      flex-direction:column ;
+      background-color: #232f3e ;
+    } */ */
+    /* .end_point{
+      display: flex;
+      /* flex-direction: row; */
+      
+    /* } */ */
+    /* .end_point nav ul li{
+      /* display: flex;
+      flex-direction: row; */
+      /* color:#127b8d; */
+    /* } */ */
+
+.end-point {
+  display: flex; /* Arrange items horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Align vertically */
+  gap: 20px; /* Add spacing between items */
+  padding: 10px 0;
+  /* margin :auto; */
+}
+
+.end-point ul {
+  display: flex; /* Arrange list items horizontally */
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.end-point li {
+  margin: 0 15px; /* Add spacing between list items */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.end {
+  text-align: center; /* Center-align text */
+  margin-top: 10px; /* Add space above the copyright text */
+  color: white;
+}

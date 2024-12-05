@@ -1,0 +1,22 @@
+h1{
+  text-decoration: underline;
+  color:darkcyan
+}
+h3{
+  color:darkcyan
+
+}
+p{
+  color:darkcyan
+
+}
+li{
+  color:darkcyan
+
+}
+button{
+  background-color: darkcyan;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

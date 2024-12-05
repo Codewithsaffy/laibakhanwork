@@ -1,0 +1,15 @@
+h2{
+  color: teal;
+}
+.box{
+  background-color: rgb(20, 138, 138);
+  color: aliceblue;
+  width: 140px;
+  height: 45px;
+  border: 2px solid  rgb(7, 99, 99);
+  border-radius: 5px;
+  font-size: 17px;
+  margin: 5px;
+  text-align: center;
+  padding: 7px 0px 0px 0px;
+}
