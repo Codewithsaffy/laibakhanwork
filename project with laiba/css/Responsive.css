@@ -32,8 +32,8 @@ padding: 0px 0px 11px 0px;
   @media screen and (max-width: 1780px) {
  
 .card-items img {
-width: 299px;
-height: 350px;
+width: 221px;
+height: 294px;
 }
     }
     @media screen and (max-width: 720px) {
@@ -67,3 +67,18 @@ height: 350px;
     }
     
         }
+       @media screen and (max-width: 1283px) {
+        .card-items img{
+          width: 201px;
+        }
+       }
+       @media screen and (max-width: 908px) {
+        .card-items img{
+          width: 135px;
+        }
+       }
+       @media screen and (max-width: 1348px) {
+        .card-items img{
+          width: 215px;
+        }
+       }

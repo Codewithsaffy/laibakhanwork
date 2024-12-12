@@ -153,12 +153,19 @@ class person {
     this.species = "home species";
     this.name = name;
   }
+  eat (){
+    console.log("eating");
+  }
 }
 class engineers extends person {
   constructor(name) {
     super(name); //to invoke parent class constructor
   }
+  work(){
+    super.eat();
+  }
 }
 
 let obj4 = new engineers("laiba");
 console.log(obj4);
+obj4.work();
