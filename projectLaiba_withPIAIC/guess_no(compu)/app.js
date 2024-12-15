@@ -29,6 +29,11 @@ guessButton.addEventListener('click', () => {
   userInput.value = '';
 });
 
+userInput.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    guessButton.click();
+  }
+});
 newGameButton.addEventListener('click', () => {
   randomNumber = Math.floor(Math.random() * 100) + 1; // Generate a new random number
   attempts = 0; // Reset attempts
