@@ -1,0 +1,124 @@
+
+
+@media (max-width: 1024px) {
+  .card {
+    width: 85%; /* Decrease card width slightly */
+    padding: 35px 30px;
+  }
+
+  .weather h1 {
+    font-size: 70px;
+  }
+
+  .weather h2 {
+    font-size: 40px;
+  }
+
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 ;
+    margin-top: 50px;
+  }
+
+  .col img {
+    width: 35px; /* Slightly smaller icons */
+  }
+  .col {
+    display: flex;
+
+  }
+  .humidity,
+  .wind {
+    font-size: 24px;
+  }
+}
+
+/* Mobile - screens up to 767px */
+@media (max-width: 767px) {
+  .card {
+    width: 95%; /* Card width adjusts for smaller devices */
+    padding: 25px 20px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+  }
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  .col img {
+    width: 30px; /* Smaller icons for mobile */
+  }
+
+  .humidity,
+  .wind {
+    font-size: 20px; /* Smaller text for mobile */
+  }
+}
+
+/* Extra small mobile devices (portrait mode) */
+@media (max-width: 480px) {
+  .card {
+    width: 95%;
+    padding: 20px 15px;
+  }
+
+  .weather h1 {
+    font-size: 50px;
+  }
+
+  .weather h2 {
+    font-size: 30px;
+  }
+
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  .col img {
+    width: 25px; /* Further reduce icon size */
+  }
+
+  .humidity,
+  .wind {
+    font-size: 18px; /* Further reduce text size */
+  }
+}
+@media (max-width: 380px) {
+  .search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .search input{
+    border: 0;
+    outline: 0;
+    /* background:#698794; */
+    background: #ebfffc;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+  }
+}
